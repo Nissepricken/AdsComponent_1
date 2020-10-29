@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lc:LibraryCompiler xmlns:lc="urn:abb-robotics-robotstudio-librarycompiler"
+										xmlns="urn:abb-robotics-robotstudio-graphiccomponent"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="urn:abb-robotics-robotstudio-librarycompiler file:///C:\Program%20Files%20(x86)\ABB\SDK\RobotStudio%202020%20SDK\LibraryCompilerSchema.xsd
+                                        urn:abb-robotics-robotstudio-graphiccomponent file:///C:\Program%20Files%20(x86)\ABB\SDK\RobotStudio%202020%20SDK\GraphicComponentSchema.xsd">
+	<lc:Library fileName="AdsComponent_1.rslib">
+		<lc:DocumentProperties>
+			<lc:Author>SENIOLO</lc:Author>
+			<lc:Image source="AdsComponent_1.png"/>
+		</lc:DocumentProperties>
+		<SmartComponent name="AdsComponent_1" icon="AdsComponent_1.png"
+										codeBehind="AdsComponent_1.CodeBehind,AdsComponent_1.dll"
+										canBeSimulated="false">
+			<Properties>
+				<DynamicProperty name="SampleProperty" valueType="System.Double" value="10">
+					<Attribute key="MinValue" value="0"/>
+					<Attribute key="Quantity" value="Length"/>
+				</DynamicProperty>
+			</Properties>
+			<Bindings>
+			</Bindings>
+			<Signals>
+				<IOSignal name="SampleSignal" signalType="DigitalInput"/>
+			</Signals>
+			<GraphicComponents>
+			</GraphicComponents>
+			<Assets>
+				<Asset source="AdsComponent_1.dll"/>
+			</Assets>
+		</SmartComponent>
+	</lc:Library>
+</lc:LibraryCompiler>
